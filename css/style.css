@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #F8F3ED;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Titan One', cursive;
+}
+
+button {
+    font-family: 'Fredoka One', cursive;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+img.logo {
+    width: 200px;
+}
+
+a.nav-link {
+    font-size: 15px;
+    color: #000 !important;
+}
+
+.menu {
+    padding-left: 200px;
+}
+
+.phone {
+    text-decoration: none;
+    color: #000;
+}
+
+.banner {
+    width: 100%;
+    padding: 0 5%;
+}
+
+.carousel-item-left {
+    padding-top: 150px;
+}
+
+#new {
+    background: red;
+    padding: 5px 15px;
+    font-family: 'Titan One', cursive;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.carousel-item-left h1 {
+    font-size: 68px;
+    letter-spacing: 3px;
+}
+
+.chili {
+    display: inline-block;
+}
+
+.chili i {
+    font-size: 20px;
+    color: red;
+}
+
+#spicy {
+    font-size: 16px;
+    color: red;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+.carousel-item-left p {
+    padding: 20px 0;
+    width: 80%;
+}
+
+#ingredients {
+    color: green;
+    padding: 10px 0;
+}
+
+.ingredient-icons i {
+    font-size: 20px;
+    color: green;
+    padding: 20px 0;
+    margin-right: 10px;
+}
+
+.ingredient-icons a {
+    font-family: poppins !important;
+    font-size: 14px;
+    background: green;
+    color: #fff;
+    padding: 7px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.price {
+    margin-left: 50px;
+    display: inline-block;
+    font-size: 38px;
+    color: green;
+    font-family: 'Titan One', cursive;
+
+}
+
+.carousel-item-right img {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.yellow-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 686px;
+    height: 100vh;
+    background: #FFC438;
+    z-index: -1;
+}
+
+.slider-bottom-items {
+    width: 70%;
+    display: inline-flex;
+    text-align: center;
+    padding: 0 20%;
+    margin-left: 200px;
+}
+
+.items {
+    width: 100px;
+}
+
+.items img {
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 1440px) and (max-width: 1920px) {
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    .menu {
+        padding-left: 0px;
+    }
+
+    .carousel-item-left {
+        padding-top: 120px;
+    }
+    
+    .carousel-item-left h1 {
+        font-size: 54px;
+    }
+    
+    
+    .yellow-bg {
+        width: 390px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+    .menu {
+        padding-left: 0px;
+    }
+
+    img.logo {
+        width: 170px;
+    }
+
+    a.nav-link {
+        font-size: 13px;
+        color: #000 !important;
+    }
+
+    .carousel-item-left {
+        padding-top: 50px;
+    }
+
+    .carousel-item-left h1 {
+        font-size: 48px;
+    }
+
+    .yellow-bg {
+        width: 390px
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .menu {
+        padding-left: 50px;
+    }
+    .carousel-item-left {
+        padding-top: 50px;
+    }
+
+    .carousel-item-left h1 {
+        font-size: 40px;
+    }
+
+    .carousel-item-left p {
+        font-size: 14px;
+    }
+    .yellow-bg {
+        width: 390px;
+    }
+
+    .slider-bottom-items {
+        width: 90%;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+    
+    .carousel-item-left {
+        padding-top: 50px;
+    }
+    
+    .carousel-item-left h1 {
+        font-size: 32px;
+    }
+    
+    .yellow-bg {
+        width: 100%;
+        min-height: fit-content;
+    }
+
+    .slider-bottom-items {
+        width: 90%;
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .menu {
+        padding-left: 50px;
+    }
+
+    .banner {
+        width: 100%;
+        padding: 0 1%;
+    }
+
+    .carousel-item-left {
+        padding-top: 30px;
+    }
+    
+    .carousel-item-left h1 {
+        font-size: 24px;
+    }
+
+    .carousel-item-left p {
+        font-size: 12px;
+    }
+
+    .yellow-bg {
+        display: none;
+    }
+
+    .slider-bottom-items {
+        width: 90%;
+        margin-left: 20px;
+    }
+}
